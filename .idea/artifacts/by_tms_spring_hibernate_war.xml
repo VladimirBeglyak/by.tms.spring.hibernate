@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="by.tms.spring.hibernate:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>by.tms.spring.hibernate</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="by_tms_spring_hibernate-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="by.tms.spring.hibernate:war exploded" />
+    </root>
+  </artifact>
+</component>

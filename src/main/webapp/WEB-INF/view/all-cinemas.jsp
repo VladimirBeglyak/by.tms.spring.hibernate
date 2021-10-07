@@ -6,6 +6,7 @@
     <title>Title</title>
 </head>
 <body>
+
 <table>
     <tr>
         <th>Name</th>
@@ -15,9 +16,14 @@
         <tr>
             <td>${cinema.name}</td>
             <td>${cinema.address}</td>
+            <td><a href="/cinema/${cinema.id}">More details</a></td>
         </tr>
+
     </c:forEach>
 </table>
+
+
+
 
 <br>
 <br>
